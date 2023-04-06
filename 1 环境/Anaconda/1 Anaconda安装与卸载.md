@@ -54,7 +54,15 @@ $ source ~/.zshrc
 
 
 
+# Conda自带Python
 
+```bash
+$ which python
+/Users/linxiang/anaconda3/bin/python
+
+$ which python3
+/Users/linxiang/anaconda3/bin/python3
+```
 
 
 

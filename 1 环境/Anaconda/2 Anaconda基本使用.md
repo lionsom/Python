@@ -1,7 +1,5 @@
 
 
-
-
 ### 终端更新Anaconda
 
 ```bash

@@ -5,19 +5,21 @@
 
 ## 一、安装Python3
 
+安装Xcode命令行工具：`xcode-select --install`
+
 使用HomeBrew安装，具体使用可参考 [HomeBrew的日常使用](https://www.jianshu.com/p/2fa264b93f06)
 
 利用 homebrew 搜尋 Python3：`$ brew search python3`
 
 这里，我已经安装过了，所以出现了✔
 
-![](meida_Python/001.webp)
+![](images/001.webp)
 
 如果未安装，则执行如下命令安装：`$ brew install python3`
 
 如果安装失败！！！
 
-![](meida_Python/002.webp)
+![](images/002.webp)
 
 解决方案：
 但是 Xcode 确实已经更新到了最新版本
@@ -26,17 +28,17 @@
 然后再次进行安装`$ brew install python3`
 
 
-![](meida_Python/003.webp)
+![](images/003.webp)
 
 
 如何查看python3安装路径：`$ brew list python`
 
 
-![](meida_Python/004.webp)
+![](images/004.webp)
 
 从上图可以发现python3的安装路径，并打开： `$ open /usr/local/Cellar/`
 
-![](meida_Python/005.webp)
+![](images/005.webp)
 
 
 
@@ -44,36 +46,36 @@
 
 首先，輸入：`python --version`
 
-![](meida_Python/0051.webp)
+![](images/0051.webp)
 
 天哪！都還沒開始裝 Python，電腦裡面怎麼已經有了？
 這是 Mac 系統要使用的 Python，所以平常没事不要去亂動比較好唷！
 系统自带Python路径`/user/bin/`
 
-![](meida_Python/006.webp)
+![](images/006.webp)
 
 所以現在我們要用 homebrew 來安裝平常可以（亂搞？）使用的 Python。
 
 利用 homebrew 安装 Python2
 当我们安装python3时，有一些额外的提示：`$ brew install python@2`
 
-![](meida_Python/007.webp)
+![](images/007.webp)
 
 安装`$ brew install python@2`
 
-![](meida_Python/008.webp)
+![](images/008.webp)
 
 如果使用 `$ brew install python`，看得出来，默认是安装的python3
 
-![](meida_Python/009.webp)
+![](images/009.webp)
 
 如何查看python2安装路径：`$ brew list python@2`
 
-![](meida_Python/010.webp)
+![](images/010.webp)
 
 从上图可以发现python3的安装路径，并打开： `$ open /usr/local/Cellar/`
 
-![](meida_Python/011.webp)
+![](images/011.webp)
 
 
 
@@ -109,7 +111,7 @@ $ echo $PATH
 現在，我們回到資料夾去看
 brew 其實就在 /usr/local/bin 裡面！
 
-![](meida_Python/012.webp)
+![](images/012.webp)
 
 
 所以現在的問題就是，系統在 /usr/bin 裡面也有一份 Python
@@ -147,6 +149,6 @@ echo  $PATH
 
 用 `$ which python` 和 `$ python --version` 检验
 
-![](meida_Python/013.webp)
+![](images/013.webp)
 
 发现使用的已经是我们自定义安装的Python了。
