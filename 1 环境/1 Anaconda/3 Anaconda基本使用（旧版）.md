@@ -1,15 +1,3 @@
-
-
-### 终端更新Anaconda
-
-```bash
-$ conda update anaconda
-```
-
-
-
-
-
 * [Anaconda](https://www.anaconda.com)
 * [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac)
 

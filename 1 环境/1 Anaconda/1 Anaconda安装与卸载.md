@@ -4,7 +4,7 @@
 
 
 
-* Anaconda Navigator
+* [Anaconda Navigator](https://docs.anaconda.com/navigator/)
 
     * [Installing Anaconda  Navigator](https://docs.anaconda.com/navigator/install/#id2)
 
@@ -18,9 +18,33 @@
 
         
 
+# Anaconda
+
+Anaconda是包管理器和环境管理器。
+
+`Anaconda Distribution` 包含 `Conda` 和 `Anaconda Navigator`，以及Python和数百个科学包。安装Anaconda时，您也安装了所有这些。
+
+尝试使用 `Navigator` 和 `命令行` 的简单编程练习，以帮助您确定哪种方法适合您。
 
 
-# Conda环境变量
+
+# Anaconda自带Python
+
+安装完Anaconda已经自带安装好了Python，不需要你再安装Python了。
+
+* Anaconda3 will now be installed into this location: `/Users/qiyeyun/anaconda3`
+
+```bash
+$ which python
+/Users/linxiang/anaconda3/bin/python
+
+$ which python3
+/Users/linxiang/anaconda3/bin/python3
+```
+
+
+
+# Anaconda环境变量
 
 conda initialize 变量是安装时，自动添加的
 
@@ -54,17 +78,10 @@ $ source ~/.zshrc
 
 
 
-# Conda自带Python
+# 无端的在终端前部分出现了（base）字样
 
-```bash
-$ which python
-/Users/linxiang/anaconda3/bin/python
+凭感觉打开了   ～/.bashrc 文件， 发现如下：
 
-$ which python3
-/Users/linxiang/anaconda3/bin/python3
-```
+可以发现我们找到了问题的源头，那就是aconda自动加入了命令到 .bashrc中，  在我们打开终端的时候自动 执行了   conda  activate base 命令，
 
-
-
-
-
+于是乎就有了前面所说的问题。
