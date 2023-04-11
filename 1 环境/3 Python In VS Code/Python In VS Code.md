@@ -110,7 +110,13 @@ The following table lists the various tools involved with Python environments:
 
 
 
+# [Data Science in Visual Studio Code](https://code.visualstudio.com/docs/datascience/overview)
 
+
+
+
+
+Jupyter Notebooks in VS Code
 
 
 
