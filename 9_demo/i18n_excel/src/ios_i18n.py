@@ -9,7 +9,7 @@ import shutil
 from StringsFileUtil import StringsFileUtil
 
 # 初始国际化表
-origin_excel_Path = '/Users/qiyeyun/Desktop/i18n_excel/多语言词条ALL11111.xls'
+origin_excel_Path = '/Users/qiyeyun/Desktop/i18n_excel/多语言词条ALL.xls'
 
 # excel具体参数
 origin_excel_WordBarCode = {'name': 'WordBarCode', 'col_index': 7 }  # 词条码， 第7列
